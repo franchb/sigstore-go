@@ -19,11 +19,11 @@ import (
 	"errors"
 	"time"
 
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/tlog"
 	in_toto "github.com/in-toto/attestation/go/v1"
 	"github.com/secure-systems-lab/go-securesystemslib/dsse"
 	protocommon "github.com/sigstore/protobuf-specs/gen/pb-go/common/v1"
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore-go/pkg/tlog"
 )
 
 var errNotImplemented = errors.New("not implemented")

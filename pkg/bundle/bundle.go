@@ -29,8 +29,8 @@ import (
 	"golang.org/x/mod/semver"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/sigstore/sigstore-go/pkg/tlog"
-	"github.com/sigstore/sigstore-go/pkg/verify"
+	"github.com/franchb/sigstore-go/pkg/tlog"
+	"github.com/franchb/sigstore-go/pkg/verify"
 )
 
 var ErrValidation = errors.New("validation error")

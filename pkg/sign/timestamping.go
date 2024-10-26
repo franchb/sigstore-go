@@ -27,7 +27,7 @@ import (
 
 	"github.com/digitorus/timestamp"
 
-	"github.com/sigstore/sigstore-go/pkg/util"
+	"github.com/franchb/sigstore-go/pkg/util"
 )
 
 type TimestampAuthorityOptions struct {

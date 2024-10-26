@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/theupdateframework/go-tuf/v2/metadata/config"
-	"github.com/theupdateframework/go-tuf/v2/metadata/fetcher"
-	"github.com/theupdateframework/go-tuf/v2/metadata/updater"
+	"github.com/franchb/go-tuf/v2/metadata/config"
+	"github.com/franchb/go-tuf/v2/metadata/fetcher"
+	"github.com/franchb/go-tuf/v2/metadata/updater"
 
-	"github.com/sigstore/sigstore-go/pkg/util"
+	"github.com/franchb/sigstore-go/pkg/util"
 )
 
 // Client is a Sigstore TUF client

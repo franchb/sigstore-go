@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sigstore/sigstore/pkg/signature"
+	"github.com/franchb/sigstore/pkg/signature"
 )
 
 type TrustedMaterial interface {

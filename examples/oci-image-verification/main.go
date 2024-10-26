@@ -37,11 +37,11 @@ import (
 	protocommon "github.com/sigstore/protobuf-specs/gen/pb-go/common/v1"
 	protorekor "github.com/sigstore/protobuf-specs/gen/pb-go/rekor/v1"
 
-	"github.com/sigstore/sigstore-go/pkg/bundle"
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore-go/pkg/tuf"
-	"github.com/sigstore/sigstore-go/pkg/verify"
-	"github.com/sigstore/sigstore/pkg/signature"
+	"github.com/franchb/sigstore-go/pkg/bundle"
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/tuf"
+	"github.com/franchb/sigstore-go/pkg/verify"
+	"github.com/franchb/sigstore/pkg/signature"
 )
 
 var artifact *string

@@ -21,23 +21,23 @@ import (
 	"errors"
 	"time"
 
+	"github.com/franchb/rekor/pkg/client"
+	"github.com/franchb/rekor/pkg/generated/client/entries"
+	"github.com/franchb/rekor/pkg/generated/models"
+	"github.com/franchb/rekor/pkg/pki"
+	"github.com/franchb/rekor/pkg/tle"
+	"github.com/franchb/rekor/pkg/types"
+	"github.com/franchb/rekor/pkg/types/dsse"
+	"github.com/franchb/rekor/pkg/types/hashedrekord"
+	rekorUtil "github.com/franchb/rekor/pkg/util"
 	protobundle "github.com/sigstore/protobuf-specs/gen/pb-go/bundle/v1"
 	protorekor "github.com/sigstore/protobuf-specs/gen/pb-go/rekor/v1"
-	"github.com/sigstore/rekor/pkg/client"
-	"github.com/sigstore/rekor/pkg/generated/client/entries"
-	"github.com/sigstore/rekor/pkg/generated/models"
-	"github.com/sigstore/rekor/pkg/pki"
-	"github.com/sigstore/rekor/pkg/tle"
-	"github.com/sigstore/rekor/pkg/types"
-	"github.com/sigstore/rekor/pkg/types/dsse"
-	"github.com/sigstore/rekor/pkg/types/hashedrekord"
-	rekorUtil "github.com/sigstore/rekor/pkg/util"
 
 	// To initialize rekor types
-	_ "github.com/sigstore/rekor/pkg/types/dsse/v0.0.1"
-	_ "github.com/sigstore/rekor/pkg/types/hashedrekord/v0.0.1"
+	_ "github.com/franchb/rekor/pkg/types/dsse/v0.0.1"
+	_ "github.com/franchb/rekor/pkg/types/hashedrekord/v0.0.1"
 
-	"github.com/sigstore/sigstore-go/pkg/util"
+	"github.com/franchb/sigstore-go/pkg/util"
 )
 
 type RekorClient interface {

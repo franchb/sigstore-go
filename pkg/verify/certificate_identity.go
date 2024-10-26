@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/sigstore/sigstore-go/pkg/fulcio/certificate"
+	"github.com/franchb/sigstore-go/pkg/fulcio/certificate"
 )
 
 type SubjectAlternativeNameMatcher struct {

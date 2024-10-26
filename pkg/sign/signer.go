@@ -23,9 +23,9 @@ import (
 	protobundle "github.com/sigstore/protobuf-specs/gen/pb-go/bundle/v1"
 	protocommon "github.com/sigstore/protobuf-specs/gen/pb-go/common/v1"
 
-	verifyBundle "github.com/sigstore/sigstore-go/pkg/bundle"
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore-go/pkg/verify"
+	verifyBundle "github.com/franchb/sigstore-go/pkg/bundle"
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/verify"
 )
 
 const bundleV03MediaType = "application/vnd.dev.sigstore.bundle.v0.3+json"

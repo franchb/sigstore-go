@@ -18,11 +18,11 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/franchb/sigstore-go/pkg/bundle"
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/testing/ca"
+	"github.com/franchb/sigstore-go/pkg/verify"
 	protobundle "github.com/sigstore/protobuf-specs/gen/pb-go/bundle/v1"
-	"github.com/sigstore/sigstore-go/pkg/bundle"
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore-go/pkg/testing/ca"
-	"github.com/sigstore/sigstore-go/pkg/verify"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

@@ -26,13 +26,13 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore/pkg/cryptoutils"
 	ct "github.com/google/certificate-transparency-go"
 	"github.com/google/certificate-transparency-go/tls"
 	"github.com/google/certificate-transparency-go/trillian/ctfe"
 	ctx509 "github.com/google/certificate-transparency-go/x509"
 	ctx509util "github.com/google/certificate-transparency-go/x509util"
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore/pkg/cryptoutils"
 	"github.com/stretchr/testify/assert"
 )
 

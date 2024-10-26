@@ -17,8 +17,8 @@ package certificate_test
 import (
 	"testing"
 
-	"github.com/sigstore/sigstore-go/pkg/fulcio/certificate"
-	"github.com/sigstore/sigstore-go/pkg/testing/data"
+	"github.com/franchb/sigstore-go/pkg/fulcio/certificate"
+	"github.com/franchb/sigstore-go/pkg/testing/data"
 	"github.com/stretchr/testify/assert"
 )
 

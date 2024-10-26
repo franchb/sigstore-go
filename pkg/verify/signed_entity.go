@@ -22,10 +22,10 @@ import (
 	"io"
 	"time"
 
+	"github.com/franchb/sigstore-go/pkg/fulcio/certificate"
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore/pkg/cryptoutils"
 	in_toto "github.com/in-toto/attestation/go/v1"
-	"github.com/sigstore/sigstore-go/pkg/fulcio/certificate"
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore/pkg/cryptoutils"
 )
 
 const (

@@ -29,19 +29,19 @@ import (
 	"time"
 
 	"github.com/cyberphone/json-canonicalization/go/src/webpki.org/jsoncanonicalizer"
+	"github.com/franchb/rekor/pkg/generated/models"
+	"github.com/franchb/rekor/pkg/types"
+	dsse_v001 "github.com/franchb/rekor/pkg/types/dsse/v0.0.1"
+	hashedrekord_v001 "github.com/franchb/rekor/pkg/types/hashedrekord/v0.0.1"
+	intoto_v002 "github.com/franchb/rekor/pkg/types/intoto/v0.0.2"
+	rekorVerify "github.com/franchb/rekor/pkg/verify"
+	"github.com/franchb/sigstore/pkg/signature"
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 	v1 "github.com/sigstore/protobuf-specs/gen/pb-go/rekor/v1"
-	"github.com/sigstore/rekor/pkg/generated/models"
-	"github.com/sigstore/rekor/pkg/types"
-	dsse_v001 "github.com/sigstore/rekor/pkg/types/dsse/v0.0.1"
-	hashedrekord_v001 "github.com/sigstore/rekor/pkg/types/hashedrekord/v0.0.1"
-	intoto_v002 "github.com/sigstore/rekor/pkg/types/intoto/v0.0.2"
-	rekorVerify "github.com/sigstore/rekor/pkg/verify"
-	"github.com/sigstore/sigstore/pkg/signature"
 
-	"github.com/sigstore/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/root"
 )
 
 type Entry struct {

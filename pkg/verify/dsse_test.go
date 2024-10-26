@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/franchb/sigstore/pkg/signature"
 	"github.com/secure-systems-lab/go-securesystemslib/dsse"
-	"github.com/sigstore/sigstore/pkg/signature"
 	"github.com/stretchr/testify/assert"
 )
 

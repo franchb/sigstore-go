@@ -28,10 +28,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sigstore/sigstore/pkg/signature"
+	"github.com/franchb/go-tuf/v2/metadata"
+	"github.com/franchb/go-tuf/v2/metadata/repository"
+	"github.com/franchb/sigstore/pkg/signature"
 	"github.com/stretchr/testify/assert"
-	"github.com/theupdateframework/go-tuf/v2/metadata"
-	"github.com/theupdateframework/go-tuf/v2/metadata/repository"
 	"golang.org/x/crypto/ed25519"
 )
 
@@ -248,7 +248,7 @@ func TestExpiredTimestamp(t *testing.T) {
 }
 
 // repo represents repositoryType from
-// github.com/theupdateframework/go-tuf/v2/metadata/repository, which is
+// github.com/franchb/go-tuf/v2/metadata/repository, which is
 // unexported.
 type repo interface {
 	Root() *metadata.Metadata[metadata.RootType]

@@ -23,11 +23,11 @@ import (
 	"math/big"
 	"testing"
 
+	_ "github.com/franchb/rekor/pkg/types/hashedrekord"
 	protobundle "github.com/sigstore/protobuf-specs/gen/pb-go/bundle/v1"
 	protocommon "github.com/sigstore/protobuf-specs/gen/pb-go/common/v1"
 	protodsse "github.com/sigstore/protobuf-specs/gen/pb-go/dsse"
 	rekorv1 "github.com/sigstore/protobuf-specs/gen/pb-go/rekor/v1"
-	_ "github.com/sigstore/rekor/pkg/types/hashedrekord"
 	"github.com/stretchr/testify/require"
 )
 

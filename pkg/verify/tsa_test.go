@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore-go/pkg/testing/ca"
-	"github.com/sigstore/sigstore-go/pkg/verify"
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/testing/ca"
+	"github.com/franchb/sigstore-go/pkg/verify"
 	"github.com/stretchr/testify/assert"
 )
 

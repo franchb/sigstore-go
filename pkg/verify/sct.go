@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/franchb/sigstore-go/pkg/root"
 	"github.com/google/certificate-transparency-go/ctutil"
 	ctx509 "github.com/google/certificate-transparency-go/x509"
 	"github.com/google/certificate-transparency-go/x509util"
-	"github.com/sigstore/sigstore-go/pkg/root"
 )
 
 // VerifySignedCertificateTimestamp, given a threshold, TrustedMaterial, and a

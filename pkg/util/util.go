@@ -27,7 +27,7 @@ func ConstructUserAgent() string {
 	}
 
 	for _, eachDep := range buildInfo.Deps {
-		if eachDep.Path == "github.com/sigstore/sigstore-go" {
+		if eachDep.Path == "github.com/franchb/sigstore-go" {
 			userAgent += "/"
 			userAgent += eachDep.Version
 		}

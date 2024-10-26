@@ -19,7 +19,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sigstore/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/root"
 )
 
 const maxAllowedTimestamps = 32

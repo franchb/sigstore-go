@@ -22,15 +22,15 @@ import (
 	"errors"
 	"fmt"
 
-	rekorClient "github.com/sigstore/rekor/pkg/client"
-	rekorGeneratedClient "github.com/sigstore/rekor/pkg/generated/client"
-	rekorEntries "github.com/sigstore/rekor/pkg/generated/client/entries"
-	rekorVerify "github.com/sigstore/rekor/pkg/verify"
-	"github.com/sigstore/sigstore/pkg/signature"
+	rekorClient "github.com/franchb/rekor/pkg/client"
+	rekorGeneratedClient "github.com/franchb/rekor/pkg/generated/client"
+	rekorEntries "github.com/franchb/rekor/pkg/generated/client/entries"
+	rekorVerify "github.com/franchb/rekor/pkg/verify"
+	"github.com/franchb/sigstore/pkg/signature"
 
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore-go/pkg/tlog"
-	"github.com/sigstore/sigstore-go/pkg/util"
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/tlog"
+	"github.com/franchb/sigstore-go/pkg/util"
 )
 
 const maxAllowedTlogEntries = 32
