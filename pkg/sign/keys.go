@@ -25,8 +25,8 @@ import (
 	"encoding/base64"
 	"errors"
 
+	"github.com/franchb/sigstore/pkg/cryptoutils"
 	protocommon "github.com/sigstore/protobuf-specs/gen/pb-go/common/v1"
-	"github.com/sigstore/sigstore/pkg/cryptoutils"
 )
 
 type Keypair interface {

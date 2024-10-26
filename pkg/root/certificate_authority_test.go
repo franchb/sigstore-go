@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sigstore/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/root"
 	tsx509 "github.com/sigstore/timestamp-authority/pkg/x509"
 	"github.com/stretchr/testify/require"
 )

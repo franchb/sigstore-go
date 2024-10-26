@@ -27,14 +27,14 @@ import (
 	"os"
 	"time"
 
-	"github.com/sigstore/sigstore/pkg/signature"
-	"github.com/theupdateframework/go-tuf/v2/metadata/fetcher"
+	"github.com/franchb/go-tuf/v2/metadata/fetcher"
+	"github.com/franchb/sigstore/pkg/signature"
 
-	"github.com/sigstore/sigstore-go/pkg/bundle"
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore-go/pkg/tuf"
-	"github.com/sigstore/sigstore-go/pkg/util"
-	"github.com/sigstore/sigstore-go/pkg/verify"
+	"github.com/franchb/sigstore-go/pkg/bundle"
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/tuf"
+	"github.com/franchb/sigstore-go/pkg/util"
+	"github.com/franchb/sigstore-go/pkg/verify"
 )
 
 var artifact *string

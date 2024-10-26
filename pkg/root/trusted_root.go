@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/franchb/sigstore-go/pkg/tuf"
 	protocommon "github.com/sigstore/protobuf-specs/gen/pb-go/common/v1"
 	prototrustroot "github.com/sigstore/protobuf-specs/gen/pb-go/trustroot/v1"
-	"github.com/sigstore/sigstore-go/pkg/tuf"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

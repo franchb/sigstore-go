@@ -24,11 +24,11 @@ import (
 	"hash"
 	"io"
 
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore/pkg/signature"
+	sigdsse "github.com/franchb/sigstore/pkg/signature/dsse"
+	"github.com/franchb/sigstore/pkg/signature/options"
 	"github.com/secure-systems-lab/go-securesystemslib/dsse"
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore/pkg/signature"
-	sigdsse "github.com/sigstore/sigstore/pkg/signature/dsse"
-	"github.com/sigstore/sigstore/pkg/signature/options"
 )
 
 const maxAllowedSubjects = 1024

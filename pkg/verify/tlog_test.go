@@ -21,15 +21,15 @@ import (
 	"testing"
 	"time"
 
+	rekorGeneratedClient "github.com/franchb/rekor/pkg/generated/client"
+	"github.com/franchb/rekor/pkg/generated/client/entries"
+	"github.com/franchb/rekor/pkg/generated/models"
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/testing/ca"
+	"github.com/franchb/sigstore-go/pkg/tlog"
+	"github.com/franchb/sigstore-go/pkg/verify"
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/swag"
-	rekorGeneratedClient "github.com/sigstore/rekor/pkg/generated/client"
-	"github.com/sigstore/rekor/pkg/generated/client/entries"
-	"github.com/sigstore/rekor/pkg/generated/models"
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore-go/pkg/testing/ca"
-	"github.com/sigstore/sigstore-go/pkg/tlog"
-	"github.com/sigstore/sigstore-go/pkg/verify"
 	"github.com/stretchr/testify/assert"
 )
 

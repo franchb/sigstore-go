@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/franchb/sigstore/pkg/signature"
 	protocommon "github.com/sigstore/protobuf-specs/gen/pb-go/common/v1"
-	"github.com/sigstore/sigstore/pkg/signature"
 	"github.com/stretchr/testify/assert"
 )
 

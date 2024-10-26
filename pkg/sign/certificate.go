@@ -28,8 +28,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sigstore/sigstore-go/pkg/util"
-	"github.com/sigstore/sigstore/pkg/oauthflow"
+	"github.com/franchb/sigstore-go/pkg/util"
+	"github.com/franchb/sigstore/pkg/oauthflow"
 )
 
 type CertificateProviderOptions struct {

@@ -23,8 +23,8 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/sigstore/sigstore-go/pkg/testing/data"
-	"github.com/sigstore/sigstore-go/pkg/verify"
+	"github.com/franchb/sigstore-go/pkg/testing/data"
+	"github.com/franchb/sigstore-go/pkg/verify"
 	"github.com/stretchr/testify/assert"
 )
 

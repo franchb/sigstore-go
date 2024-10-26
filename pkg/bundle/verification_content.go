@@ -19,8 +19,8 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/sigstore/sigstore-go/pkg/root"
-	"github.com/sigstore/sigstore-go/pkg/verify"
+	"github.com/franchb/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/verify"
 )
 
 type Certificate struct {

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/sigstore/sigstore/pkg/cryptoutils"
+	"github.com/franchb/sigstore/pkg/cryptoutils"
 )
 
 type Summary struct {

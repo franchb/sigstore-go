@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sigstore/sigstore-go/pkg/testing/ca"
+	"github.com/franchb/sigstore-go/pkg/testing/ca"
 )
 
 var virtualSigstore *ca.VirtualSigstore

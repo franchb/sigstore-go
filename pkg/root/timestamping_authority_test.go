@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/digitorus/timestamp"
-	"github.com/sigstore/sigstore-go/pkg/root"
+	"github.com/franchb/sigstore-go/pkg/root"
 	"github.com/stretchr/testify/require"
 )
 

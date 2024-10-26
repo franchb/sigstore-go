@@ -17,9 +17,9 @@ package bundle
 import (
 	"encoding/base64"
 
+	"github.com/franchb/sigstore-go/pkg/verify"
 	in_toto "github.com/in-toto/attestation/go/v1"
 	"github.com/secure-systems-lab/go-securesystemslib/dsse"
-	"github.com/sigstore/sigstore-go/pkg/verify"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

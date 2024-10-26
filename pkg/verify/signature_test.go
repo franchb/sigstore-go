@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/franchb/sigstore-go/pkg/testing/ca"
+	"github.com/franchb/sigstore-go/pkg/verify"
 	"github.com/in-toto/in-toto-golang/in_toto"
 	"github.com/in-toto/in-toto-golang/in_toto/slsa_provenance/common"
-	"github.com/sigstore/sigstore-go/pkg/testing/ca"
-	"github.com/sigstore/sigstore-go/pkg/verify"
 	"github.com/stretchr/testify/assert"
 )
 
